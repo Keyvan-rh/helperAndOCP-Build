@@ -1,0 +1,18 @@
+{
+  "ignition": {
+    "config": {
+      "append": [
+        {
+          "source": "http://192.168.1.77:8080/ignition/", 
+          "verification": {}
+        }
+      ]
+    },
+    "timeouts": {},
+    "version": "2.1.0"
+  },
+  "networkd": {},
+  "passwd": {},
+  "storage": {},
+  "systemd": {}
+}
